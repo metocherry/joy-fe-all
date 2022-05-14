@@ -1,8 +1,8 @@
 import { css } from '@emotion/react';
 
-import type { Spacing } from '../types';
+import type { SpacingCreator } from '../types';
 
-export const PADDING: Spacing = {
+export const PADDING: SpacingCreator = {
   all: () => {
     return css``;
   },
