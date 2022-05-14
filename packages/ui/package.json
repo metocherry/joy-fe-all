@@ -9,6 +9,8 @@
     "test": "jest"
   },
   "devDependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.5",
     "@types/jest": "^27.5.1",
@@ -24,5 +26,10 @@
     "ts-node": "^10.7.0",
     "tsconfig": "*",
     "typescript": "^4.5.2"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "react": "^17.0.2"
   }
 }
